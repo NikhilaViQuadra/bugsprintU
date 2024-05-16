@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsla(0, 2%, 65%, 0.78); 
+    color: hsl(158, 18%, 57%); 
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+h1 {
+    margin-bottom: 40px;
+    text-decoration: underline; 
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button[type="submit"] {
+    background-color: #92a092; 
+    color: hsl(156, 33%, 68%);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.error-message {
+    color: rgb(171, 32, 32); 
+}
+.checkboxes {
+    margin-top: 60px;
+}
+.radio-checkbox-section {
+    margin-top: 60px; 
+}

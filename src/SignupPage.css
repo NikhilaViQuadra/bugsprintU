@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+.container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    color: #0aeb0a;
+    text-decoration: underline;
+}
+button {
+    background-color: #0fe10f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.error-message {
+    color: red;
+}
